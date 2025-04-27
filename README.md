@@ -80,11 +80,11 @@ pyinstaller --onefile --windowed main.py
 ```
 
 ### Key Build Options:
-`--onefile`: Single executable output
-`--windowed`: Prevent console window display (GUI apps)
-`--name`: Set output application name
-`--icon`: Specify application icon
-`--add-data`: Include additional resource files
+- `--onefile`: Single executable output
+- `--windowed`: Prevent console window display (GUI apps)
+- `--name`: Set output application name
+- `--icon`: Specify application icon
+- `--add-data`: Include additional resource files
 
 ### Post-Build Verification:
 - Check generated files in /dist directory
