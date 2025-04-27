@@ -26,3 +26,19 @@
 
 # Installation
 
+### Option 1: Executable (Recommended)
+1. Download the installer from [https://drive.google.com/drive/folders/1SsmNHK3h1w4QA8IRP1LYMaUbDT380n3P?usp=drive_link].
+2. Run the installer and follow the on-screen instructions.
+3. Once installed, launch the application from the Start menu.
+
+### Option 2: Source Code Installation
+1. Clone this repository using the following command:
+   ```bash
+   git clone https://github.com/AlejandroJIMBU/Sample-Browser.git
+   cd sample-browser
+   ```
+2. Create a Virtual Environment and Install Dependencies:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   pip install -r requirements.txt
