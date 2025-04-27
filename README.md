@@ -8,7 +8,7 @@
 
 - **File Explorer**: Navigate your file system using tree and list views.
 - **Audio Preview**: Play supported audio files directly within the application.
-- **Multi-Format Support**: Compatible with .wav, .mp3, .aif, and .flac formats.
+- **Multi-Format Support**: Compatible with `.wav`, `.mp3`, `.aif`, and `.flac` formats.
 - **Customizable Interface**: Switch visual themes and save settings such as the last opened directory, window geometry, and panel states.
 - **Drag and Drop**: Supports dragging files directly from the file list.
 - **Theme Loader**: Customize the app's appearance with visual styles.
@@ -42,3 +42,51 @@
    python -m venv venv
    venv\Scripts\activate
    pip install -r requirements.txt
+   ```
+3. Run the Application:
+   ```bash
+   python src/main.py
+   ```
+
+---
+
+# Usage
+
+1. Upon launching the application, select a directory using the built-in file explorer.
+2. Preview audio files by clicking on them.
+3. Customize your experience through the settings menu to:
+   - Switch visual themes
+   - Adjust application preferences
+4. Drag and drop files directly from the file list to external applications.
+
+---
+
+# Development
+
+### Setting Up the Development Environment
+1. Install Development Dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Running Unit Tests
+   ```bash
+   pytest
+   ```
+
+### Building the Application
+**Generating Executables with PyInstaller**:
+```bash
+pyinstaller --onefile --windowed main.py
+```
+
+### Key Build Options:
+`--onefile`: Single executable output
+`--windowed`: Prevent console window display (GUI apps)
+`--name`: Set output application name
+`--icon`: Specify application icon
+`--add-data`: Include additional resource files
+
+### Post-Build Verification:
+- Check generated files in /dist directory
+- Test executable functionality
+- Validate resource inclusion
