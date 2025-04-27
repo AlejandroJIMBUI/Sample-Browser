@@ -27,7 +27,7 @@
 # Installation
 
 ### Option 1: Executable (Recommended)
-1. Download the installer from [https://github.com/AlejandroJIMBUI/Sample-Browser/releases/tag/v1.0].
+1. Download the installer from [https://github.com/AlejandroJIMBUI/Sample-Browser/releases/tag/v1.0.0].
 2. Run the installer and follow the on-screen instructions.
 3. Once installed, launch the application from the Start menu.
 
@@ -107,5 +107,5 @@ pyinstaller --onefile --windowed main.py
 
 # Downloads
 
-### Windows Installer: [https://github.com/AlejandroJIMBUI/Sample-Browser/releases/tag/v1.0]
+**Latest Release**: [https://github.com/AlejandroJIMBUI/Sample-Browser/releases/tag/v1.0.0]
 
