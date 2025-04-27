@@ -52,8 +52,8 @@
 
 # Images
 
-![Theme: dark](img/sp_screenshot_1)
-![Theme: oddball](img/sp_screenshot_2)
+![Theme: dark](img/sp_screenshot_1.png)
+![Theme: oddball](img/sp_screenshot_2.png)
 
 ---
 
