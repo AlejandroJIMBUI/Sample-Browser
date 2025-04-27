@@ -50,6 +50,13 @@
 
 ---
 
+# Images
+
+![Theme: dark](img/sp_screenshot_1)
+![Theme: oddball](img/sp_screenshot_2)
+
+---
+
 # Usage
 
 1. Upon launching the application, select a directory using the built-in file explorer.
