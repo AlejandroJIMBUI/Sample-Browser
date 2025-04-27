@@ -1,0 +1,32 @@
+{
+    "__comment__": "This file contains the theme/skin settings for the application. Each theme has its own set of styles and images.",
+
+    "dark": {
+        "QMainWindow": "background-color: #2d2d2d;",
+        "QTreeView, QListView": "background-color: #3a3a3a; color: #ffffff; alternate-background-color: #4a4a4a; border: 1px solid #444;",
+        "QLabel": "color: #888189; margin: 2px; padding-top: 25px; padding-bottom: 10px;",
+        "progress_bar": "QProgressBar { border: 2px solid #444444; background-color: rgba(20, 20, 20, 200); height: 12px; } QProgressBar::chunk { background-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 #000000, stop:1 #82e053); }",
+        "image": "resources/images/dark_tittle.png"
+    },
+    "light": {
+        "QMainWindow": "background-color: #ffffff;",
+        "QTreeView, QListView": "background-color: #f0f0f0; color: #000000; alternate-background-color: #e0e0e0; border: 1px solid #ccc;",
+        "QLabel": "color: #000000; margin: 2px; padding-top: 25px; padding-bottom: 10px;",
+        "progress_bar": "QProgressBar { border: 2px solid #444444; background-color: rgba(20, 20, 20, 200); height: 12px; } QProgressBar::chunk { background-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 #000000, stop:1 #82e053); }",
+        "image": "resources/images/light_tittle.png"
+    },
+    "inkCrimson": {
+        "QMainWindow": "background-color: #270022;",
+        "QTreeView, QListView": "background-color: #17001d; color: #9c173b; alternate-background-color: #1e579c; border: 1px solid #270022;",
+        "QLabel": "color: #1e579c; margin: 2px; padding-top: 25px; padding-bottom: 10px;",
+        "progress_bar": "QProgressBar { border: 2px solid #444444; background-color: rgba(20, 20, 20, 200); height: 12px; } QProgressBar::chunk { background-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 #000000, stop:1 #82e053); }",
+        "image": "resources/images/ink_crimson_tittle.png"
+    },
+    "oddball": {
+        "QMainWindow": "background-color: #442078;",
+        "QTreeView, QListView": "background-color: #8e3ce1; color: #11041e; alternate-background-color: #3ac9f5; border: 1px solid #4b4bf0;",
+        "QLabel": "color: #55ffcd; margin: 2px; padding-top: 25px; padding-bottom: 10px;",
+        "progress_bar": "QProgressBar { border: 2px solid #444444; background-color: rgba(20, 20, 20, 200); height: 12px; } QProgressBar::chunk { background-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 #000000, stop:1 #82e053); }",
+        "image": "resources/images/oddball_tittle.png"
+    }
+}
