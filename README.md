@@ -12,3 +12,17 @@
 - **Customizable Interface**: Switch visual themes and save settings such as the last opened directory, window geometry, and panel states.
 - **Drag and Drop**: Supports dragging files directly from the file list.
 - **Theme Loader**: Customize the app's appearance with visual styles.
+
+---
+
+# System Requirements
+
+- **Operating System**: Windows 10/11 (64-bit)
+- **Python**: Version 3.9 or higher
+- **Dependencies**:
+  - PyQt6
+
+---
+
+# Installation
+
