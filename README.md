@@ -102,3 +102,10 @@ pyinstaller --onefile --windowed main.py
 - Check generated files in /dist directory
 - Test executable functionality
 - Validate resource inclusion
+
+---
+
+# Downloads
+
+### Windows Installer: [https://drive.google.com/drive/folders/1SsmNHK3h1w4QA8IRP1LYMaUbDT380n3P?usp=drive_link]
+
