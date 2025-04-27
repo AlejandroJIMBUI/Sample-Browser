@@ -52,8 +52,13 @@
 
 # Images
 
+### Theme: dark
 ![Theme: dark](img/sp_screenshot_1.png)
+
+### Theme: Light
 ![Theme: oddball](img/sp_screenshot_2.png)
+
+Future releases will introduce new themes and additional features
 
 ---
 
