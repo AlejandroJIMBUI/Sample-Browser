@@ -12,5 +12,5 @@ class FileSystemManager:
         """
         self.model = QFileSystemModel()  # Create a file system model instance
         self.model.setRootPath("")  # Set the root path to the entire file system
-        self.model.setNameFilters(["*.wav", "*.mp3", "*.aif", "*.flac"])  # Filter for audio file formats
+        self.model.setNameFilters(["*.wav", "*.mp3", "*.aif", "*.flac", "*.mid", "*.amxd", "*.adg", "*.fst", "*.fxp", "*.fxb"])  # Filter for audio file formats
         self.model.setNameFilterDisables(False)  # Ensure non-matching files are hidden
