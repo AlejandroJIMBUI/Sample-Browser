@@ -80,11 +80,6 @@ class SampleBrowser(QMainWindow):
         if stylesheet:
             self.setStyleSheet(stylesheet)
 
-        # Load and display an optional image
-        if image_path and os.path.exists(image_path):
-            pixmap = QPixmap(image_path).scaled(1300, 450, Qt.AspectRatioMode.KeepAspectRatio)
-            self.image_label.setPixmap(pixmap)
-
         # Configure drag-and-drop for the list view
         self.list.setDragEnabled(True)
         self.list.setSelectionMode(QListView.SelectionMode.SingleSelection)
