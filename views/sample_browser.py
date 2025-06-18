@@ -21,7 +21,7 @@ class SampleBrowser(QMainWindow):
         """
         super().__init__()
         self.setWindowTitle("Sample Browser")
-        self.setGeometry(100, 100, 1600, 1000)
+        self.setGeometry(100, 100, 600, 700)
         self.setWindowIcon(QIcon(resource_path("resources/icons/sp_b_icon.ico")))
 
         # Persistent settings for the application
@@ -62,7 +62,7 @@ class SampleBrowser(QMainWindow):
         # Add tree and list views to the splitter
         self.splitter.addWidget(self.tree)
         self.splitter.addWidget(self.list)
-        self.splitter.setSizes([400, 800])
+        self.splitter.setSizes([200, 300])
 
         # Set up the main layout
         layout = QVBoxLayout()
