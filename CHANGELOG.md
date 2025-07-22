@@ -17,7 +17,7 @@
 - Requires Python 3.9+ and PyQt6  
 
 
-## [v2.0.0] - 2025-07-22  
+## [v2.0.0] - 2025-07-21  
 
 ### Added (New Features)
 - Support for formats: `.ogg`, `.mid`, `.amxd`, `.adg`, `.fst`, `.fxp`, `.fxb`

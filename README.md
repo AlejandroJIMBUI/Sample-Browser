@@ -39,7 +39,7 @@
 # Installation
 
 ### Option 1: Executable (Recommended)
-1. Download the installer from [Sample Browser v1.0.0](https://github.com/AlejandroJIMBUI/Sample-Browser/releases/tag/v1.0.0).
+1. Download the installer from [Sample Browser v2.0.0](https://github.com/AlejandroJIMBUI/Sample-Browser/releases/tag/v2.0.0).
 2. Run the installer and follow the on-screen instructions.
 3. Once installed, launch the application from the Start menu.
 
@@ -126,4 +126,4 @@ Future releases will introduce new themes and additional features
 
 # Downloads
 
-**Latest Release**: [Sample Browser Ver 1.0.0](https://github.com/AlejandroJIMBUI/Sample-Browser/releases/tag/v1.0.0)
+**Latest Release**: [Sample Browser Ver 2.0.0](https://github.com/AlejandroJIMBUI/Sample-Browser/releases/tag/v2.0.0)
