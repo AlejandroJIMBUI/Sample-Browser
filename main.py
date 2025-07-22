@@ -33,7 +33,7 @@ if __name__ == "__main__":
     time.sleep(0.5)  # Simulate a delay for interface setup
 
     splash.update_progress(75, "Loading components...")
-    time.sleep(0.4)  # Simulate a delay for component loading
+    time.sleep(0.4)  # Simulate a delay for component loading   
 
     # Create the main application window
     browser = SampleBrowser(stylesheet=stylesheet, image_path=image_path)

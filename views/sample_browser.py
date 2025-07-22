@@ -21,8 +21,8 @@ class SampleBrowser(QMainWindow):
         """
         super().__init__()
         self.setWindowTitle("Sample Browser")
-        self.setGeometry(100, 100, 600, 700)
-        self.setWindowIcon(QIcon(resource_path("resources/icons/sp_b_icon.ico")))
+        self.setGeometry(100, 100, 750, 550)
+        self.setWindowIcon(QIcon(resource_path("resources/icons/icon.ico")))
 
         # Persistent settings for the application
         self.settings = QSettings("SampleBrowser", "SampleBrowserPro")
@@ -37,9 +37,22 @@ class SampleBrowser(QMainWindow):
         self.list = QListView()
         self.splitter = QSplitter(Qt.Orientation.Horizontal)
 
-        # Set up the file system model for the tree and list views
+        # En el método __init__ de SampleBrowser:
         self.tree.setModel(self.model)
         self.list.setModel(self.model)
+
+        # Configurar para mostrar todo el sistema de archivos
+        root_index = self.model.index("")  # Índice raíz vacío muestra todo
+        self.tree.setRootIndex(root_index)
+
+        # Ocultar columnas no deseadas (tamaño, tipo, fecha)
+        for i in range(1, self.model.columnCount()):
+            self.tree.hideColumn(i)
+
+        # Configure list view to show only file names
+        self.list.setViewMode(QListView.ViewMode.ListMode)
+        self.list.setUniformItemSizes(True)
+        self.list.setWordWrap(False)
 
         # Set the root path for the file system view
         root_path = Path("C:/" if os.name == "nt" else "/")

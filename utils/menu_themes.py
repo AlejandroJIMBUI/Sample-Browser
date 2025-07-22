@@ -16,7 +16,7 @@ class MenuThemes:
         self.app = app
         self.browser = browser
         self.settings = QSettings("SampleBrowser", "SampleBrowserPro")
-        self.themes = ["dark", "light", "inkCrimson", "oddball"]
+        self.themes = ["dark", "softBlue", "1bitMonitorGlow", "everglowDiamond"]
 
     def setup_menu(self):
         """
@@ -45,7 +45,7 @@ class MenuThemes:
         msg_box.setIcon(QMessageBox.Icon.Information)
         msg_box.setWindowTitle("Restart Required")
         msg_box.setText("The application needs to restart to apply the selected theme.")
-        msg_box.setWindowIcon(QIcon(resource_path("resources/icons/sp_b_icon.ico")))
+        msg_box.setWindowIcon(QIcon(resource_path("resources/icons/icon.ico")))
 
         # Apply a specific style to the QMessageBox
         msg_box.setStyleSheet("""
