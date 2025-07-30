@@ -4,6 +4,11 @@ from PyQt6.QtWidgets import QApplication
 from views.sample_browser import SampleBrowser
 from views.loading_screen import LoadingScreen
 from utils.menu_themes import MenuThemes
+from PyQt6.QtCore import QTimer
+from utils.updater import check_for_updates, show_update_notification
+
+# Program version
+APP_VERSION = "2.0.0"
 
 if __name__ == "__main__":
     
@@ -42,4 +47,13 @@ if __name__ == "__main__":
     # Show the main window and close the loading screen
     browser.show()
     splash.finish(browser)
-    sys.exit(app.exec()) # Start the application's event loop
+
+    # Verificación al iniciar (con QTimer para no bloquear)
+    def verify_update():
+        update_data = check_for_updates(APP_VERSION)
+        if update_data:
+            show_update_notification(browser, update_data)
+
+    QTimer.singleShot(1000, verify_update)  # Espera 1 segundo
+
+    sys.exit(app.exec())# Start the application's event loop
