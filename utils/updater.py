@@ -13,7 +13,7 @@ def check_for_updates(current_version):
             return data
         return None
     except Exception as e:
-        print(f"Error al verificar actualizaciones: {e}")
+        print(f"Error checking for updates: {e}")
         return None
 
 def show_update_notification(parent, update_data):

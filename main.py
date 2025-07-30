@@ -48,12 +48,12 @@ if __name__ == "__main__":
     browser.show()
     splash.finish(browser)
 
-    # Verificación al iniciar (con QTimer para no bloquear)
+    # Verification on startup (with QTimer to avoid blocking)
     def verify_update():
         update_data = check_for_updates(APP_VERSION)
         if update_data:
             show_update_notification(browser, update_data)
 
-    QTimer.singleShot(1000, verify_update)  # Espera 1 segundo
+    QTimer.singleShot(1000, verify_update)  # Wait 1 second
 
     sys.exit(app.exec())# Start the application's event loop
